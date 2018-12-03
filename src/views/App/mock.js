@@ -27,4 +27,9 @@ const menuItems = [
   }
 ];
 
-export { menuItems };
+const header = {
+  title: 'Dashboard',
+  subtitle: 'With all of the styling tool options available in today’s market'
+};
+
+export { menuItems, header };

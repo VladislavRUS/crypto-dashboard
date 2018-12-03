@@ -1,13 +1,17 @@
 import React from 'react';
-import { Wrapper } from './App.styles';
+import { Wrapper, Content } from './App.styles';
 import Sidebar from '../../components/Sidebar';
-import { menuItems } from './mock';
+import Header from '../../components/Header';
+import { menuItems, header } from './mock';
 
 class App extends React.Component {
   render() {
     return (
       <Wrapper>
         <Sidebar menuItems={menuItems} />
+        <Content>
+          <Header title={header.title} subtitle={header.subtitle} />
+        </Content>
       </Wrapper>
     );
   }
