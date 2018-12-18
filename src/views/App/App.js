@@ -1,8 +1,9 @@
 import React from 'react';
-import { Wrapper, Content } from './App.styles';
+import { Wrapper, Content, HeaderWrapper, WalletsWrapper } from './App.styles';
 import Sidebar from '../../components/Sidebar';
 import Header from '../../components/Header';
 import { menuItems, header } from './mock';
+import Wallets from '../../components/Wallets';
 
 class App extends React.Component {
   render() {
@@ -10,7 +11,12 @@ class App extends React.Component {
       <Wrapper>
         <Sidebar menuItems={menuItems} />
         <Content>
-          <Header title={header.title} subtitle={header.subtitle} />
+          <HeaderWrapper>
+            <Header title={header.title} subtitle={header.subtitle} />
+          </HeaderWrapper>
+          <WalletsWrapper>
+            <Wallets />
+          </WalletsWrapper>
         </Content>
       </Wrapper>
     );

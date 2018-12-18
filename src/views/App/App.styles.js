@@ -13,3 +13,9 @@ export const Content = styled.div`
   box-sizing: border-box;
   flex-grow: 1;
 `;
+
+export const HeaderWrapper = styled.div`
+  margin-bottom: 26px;
+`;
+
+export const WalletsWrapper = styled.div``;

@@ -22,8 +22,10 @@ export const Title = styled.div`
 `;
 
 export const Subtitle = styled.div`
+  margin-top: 7px;
   color: #5b5a99;
   font-size: 13px;
+  line-height: 1.5;
 `;
 
 export const Options = styled.div`
