@@ -17,8 +17,9 @@ export const Wrapper = styled.div`
 
 export const IconWrapper = styled.div`
   margin: 0 20px;
-  width: 25px;
-  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Info = styled.div`
@@ -39,7 +40,7 @@ export const Cost = styled.div`
 `;
 
 export const Currency = styled.div`
-  margin-left: 13px;
+  margin-left: auto;
   opacity: 0.2;
   color: #ffffff;
   font-size: 12px;
